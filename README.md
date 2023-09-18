@@ -68,7 +68,7 @@ What is Survival Analysis?
 
 **Survival Analysis** involves estimating when an event of interest, \( T \)
 would take places given some features or covariates \( X \). In statistics
-and ML these scenarious are modelled as regression to estimate the conditional
+and ML these scenarios are modelled as regression to estimate the conditional
 survival distribution, \( P(T>t|X) \). As compared to typical
 regression problems, Survival Analysis differs in two major ways:
 
@@ -159,7 +159,7 @@ of survival analysis, involving options for cross-validation and
 nested cross-validation style experiments with multiple different survival
 analysis models.
 
-The module supports multiple model peroformance evaluation metrics and further 
+The module supports multiple model performance evaluation metrics and further 
 eases evaluation by automatically computing the *censoring adjusted* estimates,
 such as **Time Dependent Concordance Index** and **Brier Score** with **IPCW**
 adjustment.
@@ -208,7 +208,7 @@ phenotypes = phenotyper.fit_predict(features)
 ```
 
 - **Unsupervised Phenotyping**: Identifies groups of individuals based on structured 
-similarity in the fature space by first performing dimensionality reduction of the 
+similarity in the future space by first performing dimensionality reduction of the 
 input covariates, followed by clustering. The estimated probability of an individual 
 to belong to a latent group is computed as the distance to the cluster normalized by 
 the sum of distance to other clusters.
